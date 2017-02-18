@@ -1,0 +1,29 @@
+{
+  "name": "discrete-queue",
+  "version": "0.0.1",
+  "description": "Discrete function queue. ",
+  "main": "discrete-queue.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Peter Naydenov",
+  "license": "MIT",
+  "dependencies": {
+    "ask-for-promise": "^1.2.2",
+    "co": "^4.6.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "function",
+    "queue",
+    "async",
+    "asynchronous",
+    "ordered"
+  ]
+}
