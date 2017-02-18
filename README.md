@@ -2,18 +2,18 @@
 
 **WARNING: Experimental stage**
 
-Take `data` and aplly ordered list of functions. The recipie should look like this:
+Grab **data** and aplly to it ordered list of functions. The recipe should look like this:
 
 ```js
 let dQ = require ( 'descrete-quele' )
-let dQ ( car, [ getTheCar, washIt, driveToTheGarage]).then ( result => .... )
-/*        ^          ^                                       ^
-          |          |                                       |
-          |          |       Clean car in the garage  -------+
-          |          |
-          |          +---> list of activities ( functions )
-          |
-         Object
+dQ ( car, [ getTheCar, washIt, driveToTheGarage]).then ( result => .... )
+/*    ^          ^                                       ^
+      |          |                                       |
+      |          |       Clean car in the garage  -------+
+      |          |
+      |          +---> list of tasks ( functions )
+      |
+     Object
                      
 */
    
@@ -46,7 +46,7 @@ let dQ = require ( 'discrete-queue' )
 
 
 ## Task Functions
-Every task function will receive two arguments.  Task is an [**ask-for-promise**](https://github.com/PeterNaydenov/ask-for-promise) object and controls execution of queue. Resolving/rejecting the promise will start next task.
+Every task function will receive two arguments.  Task is an [**ask-for-promise**](https://github.com/PeterNaydenov/ask-for-promise) object and controls execution of queue. Resolving/rejecting the promise will start next task. Data is available for all functions in task list.
 
 ```js
 let myTask = ( task, data ) => {
@@ -82,6 +82,9 @@ _(Nothing yet)_
 
 
 ## Release History
+
+### 0.0.2 (2017-02-18)
+ - [x] Documentation update;
 
 ### 0.0.1 (2017-02-18)
  
