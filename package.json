@@ -6,6 +6,11 @@
   "scripts": {
     "test": "mocha test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterNaydenov/discrete-queue.git"
+  },
+
   "author": "Peter Naydenov",
   "license": "MIT",
   "dependencies": {
