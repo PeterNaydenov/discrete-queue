@@ -13,15 +13,15 @@
   "author": "Peter Naydenov",
   "license": "MIT",
   "dependencies": {
-    "ask-for-promise": "^1.2.2",
+    "ask-for-promise": "^1.3.1",
     "co": "^4.6.0"
   },
   "directories": {
     "test": "test"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
   },
   "keywords": [
     "function",
