@@ -83,6 +83,11 @@ _(Nothing yet)_
 
 ## Release History
 
+
+### 0.0.4 (2023-10-30)
+ - [x] Dependency update. Ask-for-promise@1.5.0;
+ - [x] Dev dependency update. Chai@4.3.10;
+
 ### 0.0.2 (2017-02-18)
  - [x] Documentation update;
 
