@@ -1,0 +1,4 @@
+# Default Gitignore Rules
+.DS_Store
+node_modules/
+dist/
