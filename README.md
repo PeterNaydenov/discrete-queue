@@ -1,11 +1,9 @@
 # Discrete Queue
 
-**WARNING: Experimental stage**
-
 Grab **data** and aplly to it ordered list of functions. The recipe should look like this:
 
 ```js
-let dQ = require ( 'descrete-quele' )
+import dQ from 'discrete-queue'
 dQ ( car, [ getTheCar, washIt, driveToTheGarage]).then ( result => .... )
 /*    ^          ^                                       ^
       |          |                                       |
@@ -37,8 +35,7 @@ npm install discrete-queue --save
 
 Once it has been installed, it can be used by writing this line of JavaScript:
 ```js
-
-let dQ = require ( 'discrete-queue' )
+import dQ from 'discrete-queue'
 
 ```
 
@@ -83,6 +80,9 @@ _(Nothing yet)_
 
 ## Release History
 
+### 1.0.1 (2024-05-17)
+- [x] Library converted to ES6 module;
+- [x] Documentation update;
 
 ### 0.0.4 (2023-10-30)
  - [x] Dependency update. Ask-for-promise@1.5.0;
