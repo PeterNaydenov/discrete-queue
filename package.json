@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "Discrete function queue. ",
   "main": "discrete-queue.js",
+  "type": "module",
   "scripts": {
     "test": "mocha test"
   },

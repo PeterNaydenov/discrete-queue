@@ -1,10 +1,8 @@
 'use strict';
 // discrete-queue
-const 
-       co = require ( 'co' )
-     , askForPromise = require ( 'ask-for-promise')
-     ;
 
+import askForPromise from 'ask-for-promise'
+import co from 'co'
 
 
 function* execution ( data, taskList ) {
@@ -22,6 +20,8 @@ function queue ( data, order ) {
     return co ( execution(data, order)   )
 }
 
-module.exports = queue
+
+
+export default queue
 
 

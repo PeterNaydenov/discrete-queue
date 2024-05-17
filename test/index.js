@@ -1,15 +1,10 @@
 'use strict';
-// async queue
-const 
-       dQ            = require ( '../discrete-queue' )
-     , askForPromise = require ( 'ask-for-promise' )
-     , chai          = require ('chai')
-     , expect        = require ('chai').expect
-     ;
 
+import dQ from '../discrete-queue.js'
+import askForPromise from 'ask-for-promise'
+import { expect } from 'chai'
 
-
-
+// async queue test
 describe ( 'Discrete Queue', () => {
 
 
