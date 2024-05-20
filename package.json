@@ -1,7 +1,7 @@
 {
   "name": "discrete-queue",
   "version": "2.0.0",
-  "description": "Discrete function queue. ",
+  "description": "Execute list of asynchronous functions in order.",
   "main": "src/main.js",
   "type": "module",
   "scripts": {
