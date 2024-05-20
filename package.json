@@ -2,7 +2,7 @@
   "name": "discrete-queue",
   "version": "1.0.1",
   "description": "Discrete function queue. ",
-  "main": "discrete-queue.js",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
     "test": "mocha test"
@@ -14,8 +14,7 @@
   "author": "Peter Naydenov",
   "license": "MIT",
   "dependencies": {
-    "ask-for-promise": "^2.0.3",
-    "co": "^4.6.0"
+    "ask-for-promise": "^2.0.3"
   },
   "directories": {
     "test": "test"
