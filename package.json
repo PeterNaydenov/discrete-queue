@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "chai": "^6.0.1",
-    "mocha": "^11.7.2"
+    "mocha": "^11.7.3"
   },
   "keywords": [
     "function",
