@@ -1,6 +1,12 @@
 # Release History
 
 
+
+### 2.0.1 (2025-11-19)
+- [x] Dependency update. Ask-for-promise@3.1.0;
+
+
+
 ### 2.0.0 (2024-05-20)
 - [x] Arguments were changed;
 - [x] Result of list execution is array of results of each function. Modification of the object is still available if it's defined outside of the function call.
