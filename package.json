@@ -14,7 +14,7 @@
   "author": "Peter Naydenov",
   "license": "MIT",
   "dependencies": {
-    "ask-for-promise": "^3.0.1"
+    "ask-for-promise": "^3.1.0"
   },
   "directories": {
     "test": "test"
