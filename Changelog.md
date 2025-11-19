@@ -2,7 +2,7 @@
 
 
 
-### 2.0.1 (2025-11-19)
+### 2.0.2 (2025-11-19)
 - [x] Dependency update. Ask-for-promise@3.1.0;
 
 
