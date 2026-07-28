@@ -5,7 +5,8 @@
   "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "test": "mocha test"
+    "test": "vitest run",
+    "cover": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,8 @@
     "test": "test"
   },
   "devDependencies": {
-    "chai": "^6.2.2",
-    "mocha": "^11.7.6"
-  },
-  "overrides": {
-    "diff": "^8.0.3",
-    "serialize-javascript": "^7.0.5"
+    "@vitest/coverage-v8": "^4.1.10",
+    "vitest": "^4.1.10"
   },
   "keywords": [
     "function",
@@ -33,5 +30,8 @@
     "async",
     "asynchronous",
     "ordered"
-  ]
+  ],
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
 }
